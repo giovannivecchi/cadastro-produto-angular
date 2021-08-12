@@ -1,20 +1,29 @@
 {
-    "products":
-    [
-        {
-            "id": 1,
-            "name": "caneta azul",
-            "price": 1.89
-        },
-        {
-            "id": 2,
-            "name": "caneta vermelha",
-            "price": 2.00
-        },
-        {
-            "id": 3,
-            "name": "caneta preta",
-            "price": 1.50
-        }
-    ]
+  "products": [
+    {
+      "id": 1,
+      "name": "caneta azul",
+      "price": 1.89
+    },
+    {
+      "id": 2,
+      "name": "caneta vermelha",
+      "price": 2
+    },
+    {
+      "id": 3,
+      "name": "caneta preta",
+      "price": 1.5
+    },
+    {
+      "name": "Vio do formulario",
+      "price": "199,90",
+      "id": 4
+    },
+    {
+      "name": "Celular Samsung",
+      "price": "1999,90",
+      "id": 5
+    }
+  ]
 }

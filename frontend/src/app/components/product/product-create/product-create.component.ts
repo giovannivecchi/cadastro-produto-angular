@@ -12,17 +12,21 @@ export class ProductCreateComponent implements OnInit {
 
   product: Product = {
     name: "",
-    price: 0
+    price: null
   }
 
   constructor(private productService: ProductService, private router: Router) { }
 
   ngOnInit(): void {
-
+    console.log(this.product)
   }
 
   createProduct(): void {
-    this.productService.showMessage('Operação Executada com sucesso!')
+    console.log(this.product)
+    this.productService.create(this.product).subscribe(() => {
+      this.productService.showMessage('Operação Executada com sucesso!')
+    })
+
   }
 
   cancel(): void {
