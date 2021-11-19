@@ -35,7 +35,8 @@ import { ProductReadComponent } from './components/product/product-read/product-
 import { ProductReadSchematicsComponent } from './components/product/product-read-schematics/product-read-schematics.component';
 import { MatTableModule } from '@angular/material/table';
 import { MatPaginatorModule } from '@angular/material/paginator';
-import { MatSortModule } from '@angular/material/sort'
+import { MatSortModule } from '@angular/material/sort';
+import { ProductUpdateComponent } from './components/product/product-update/product-update.component'
 
 registerLocaleData(localePt)
 
@@ -52,7 +53,8 @@ registerLocaleData(localePt)
     ProductCreateComponent,
     CardDirective,
     ProductReadComponent,
-    ProductReadSchematicsComponent
+    ProductReadSchematicsComponent,
+    ProductUpdateComponent
   ],
   imports: [
     BrowserModule,
