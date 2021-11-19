@@ -1,4 +1,9 @@
-import { NgModule } from '@angular/core';
+//mudar localização para pt
+import { NgModule, LOCALE_ID } from '@angular/core';
+import { registerLocaleData } from '@angular/common';
+import localePt from '@angular/common/locales/pt'
+//mudar localização para pt
+
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -31,6 +36,8 @@ import { ProductReadSchematicsComponent } from './components/product/product-rea
 import { MatTableModule } from '@angular/material/table';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatSortModule } from '@angular/material/sort'
+
+registerLocaleData(localePt)
 
 @NgModule({
   declarations: [
@@ -65,7 +72,7 @@ import { MatSortModule } from '@angular/material/sort'
     MatPaginatorModule,
     MatSortModule
   ],
-  providers: [],
+  providers: [{ provide: LOCALE_ID, useValue: 'pt-BR' }],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

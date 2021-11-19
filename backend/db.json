@@ -17,12 +17,12 @@
     },
     {
       "name": "caneta rosa",
-      "price": "1,90",
+      "price": 1.90,
       "id": 4
     },
     {
       "name": "Celular Samsung",
-      "price": "1999,90",
+      "price": 1999.90,
       "id": 5
     }  
   ]
