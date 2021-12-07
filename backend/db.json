@@ -1,29 +1,9 @@
 {
   "products": [
     {
-      "id": 1,
-      "name": "caneta azul",
-      "price": 1.89
-    },
-    {
-      "id": 2,
-      "name": "caneta vermelha",
-      "price": 2
-    },
-    {
-      "id": 3,
-      "name": "caneta preta",
-      "price": 1.5
-    },
-    {
-      "name": "caneta rosa",
-      "price": 1.90,
-      "id": 4
-    },
-    {
       "name": "Celular Samsung",
-      "price": 1999.90,
+      "price": "2000",
       "id": 5
-    }  
+    }
   ]
 }
